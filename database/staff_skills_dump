@@ -1,0 +1,18 @@
+CREATE TABLE staff (
+    id SERIAL PRIMARY KEY,
+    index_number VARCHAR(50),
+    full_name VARCHAR(255),
+    email VARCHAR(255),
+    current_location VARCHAR(255),
+    highest_level_of_education VARCHAR(255),
+    duty_station VARCHAR(255),
+    availability_for_remote_work VARCHAR(50),
+    software_expertise VARCHAR(255),
+    software_expertise_level VARCHAR(50),
+    language VARCHAR(50),
+    level_of_responsibility VARCHAR(50)
+);
+
+INSERT INTO staff (index_number, full_name, email, duty_station) VALUES
+('001', 'John Wafula', 'john@gmail.com', 'Nairobi'),
+('002', 'Jane Rose', 'janerose@gmail.com', 'Mombasa');
